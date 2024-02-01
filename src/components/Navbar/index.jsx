@@ -15,10 +15,16 @@ function Navbar() {
           <li>Contato</li>
           <li>Feedback</li>
         </ul>
-        <CartWidget />
+        <div className='nav-login-cart'>
+          <button>Login</button>
+          <CartWidget />
+          <div className='nav-cart-count'>0</div>
+        </div>
       </div>
     </div>
   );
 }
+
+
 
 export default Navbar;

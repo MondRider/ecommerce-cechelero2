@@ -17,6 +17,7 @@ function App() {
   );
 }
 
+
 function ItemCount({ stock, count, setCount }) {
   function handleAdd() {
     if (count < stock) setCount(count + 1);
